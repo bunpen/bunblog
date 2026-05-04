@@ -12,6 +12,7 @@ import cloudflare from '@astrojs/cloudflare';
 // https://astro.build/config
 export default defineConfig({
   site: 'https://bunpen.com',
+  output: 'static',
   integrations: [react(), sitemap()],
 
   vite: {

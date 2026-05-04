@@ -9,5 +9,12 @@
 	},
 	"observability": {
 		"enabled": true
-	}
+	},
+	"kv_namespaces": [
+    {
+      "binding": "BLOG_KV",
+      "id": "3",
+      "preview_id": "3"
+    }
+  ]
 }
