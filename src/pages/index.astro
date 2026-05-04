@@ -4,7 +4,7 @@ import Layout from '../layouts/Layout.astro';
 import { env } from "cloudflare:workers";
 
 export const prerender = false;
-const kv = env.BLOG_KV;
+const kv = env.KV_BINDING;
 
 const visits = parseInt(await kv.get("visits") || "0") + 1;
 await kv.put("visits", visits.toString());

@@ -12,9 +12,9 @@
 	},
 	"kv_namespaces": [
     {
-      "binding": "BLOG_KV",
-      "id": "3",
-      "preview_id": "3"
+      "binding": "KV_BINDING",
+      "id": "f9a57c92d83c4938a66baa6abeba99f8",
+      "preview_id": "f9a57c92d83c4938a66baa6abeba99f8"
     }
   ]
 }
